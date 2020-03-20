@@ -3,15 +3,15 @@ A ChezScheme library for generating interactive documentation.
 
 ## Index
 
-* [Usage](usage)
-* [Install](install)
-* [Api](api)
-* [License](license)
+[Usage](#usage)  
+[Install](#install)  
+[Api](#api)  
+[License](#license)
 
 The library has been conceived because ChezScheme (or Scheme in general) lack
 a standard way of documenting the code.
 
-## Usage {#usage}
+## Usage
 
 ```scheme
 (gen-doc foo "Test symbol")
@@ -26,14 +26,14 @@ a standard way of documenting the code.
 put the macro on top of a definition but it is really recommended that you
 do so.
 
-## Install {#install}
+## Install
 
 1. Install the [ChezScheme](https://cisco.github.io/ChezScheme) compiler.
 2. Import the docgen library making sure that the library is in the same
    directory as your project.
 3. Read the API! :smile:
 
-## Api {#api}
+## Api
 
 `(describe defName)`
 : Describes the definition denoted by the **symbol** *defName*.
@@ -47,7 +47,7 @@ do so.
   `(describe defName)` and contains the **string** documentation *doc* and
   optional *parameters* for a function definition.
 
-## License {#license}
+## License
 
 This project is licensed under the GNU GPLv3 license.
 Please refer to the LICENSE file for more information.
