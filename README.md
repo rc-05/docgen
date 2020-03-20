@@ -3,10 +3,10 @@ A ChezScheme library for generating interactive documentation.
 
 ## Index
 
-[Usage](#usage)  
-[Install](#install)  
-[Api](#api)  
-[License](#license)
+* [Usage](#usage)  
+* [Install](#install)  
+* [Api](#api)  
+* [License](#license)
 
 The library has been conceived because ChezScheme (or Scheme in general) lack
 a standard way of documenting the code.
