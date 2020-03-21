@@ -24,7 +24,7 @@ a standard way of documenting the code.
 
 `gen-doc` is position independent: this means that you are not forced to
 put the macro on top of a definition but it is really recommended that you
-do so.
+do so to increase source code readability.
 
 ## Install
 
