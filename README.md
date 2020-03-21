@@ -35,6 +35,9 @@ do so.
 
 ## Api
 
+`(list-documented-defs)`
+: Returns a vector containing all the documented definitions.
+
 `(describe defName)`
 : Describes the definition denoted by the **symbol** *defName*.
   An error is signaled when:
@@ -45,7 +48,8 @@ do so.
 `(gen-doc defName doc . parameters)`
 : Generates interactive documentation that can be retrieved with
   `(describe defName)` and contains the **string** documentation *doc* and
-  optional *parameters* for a function definition.
+  optional *parameters* for a function documentation.
+  If an already documented definition is re-documented a warning is issued.
 
 ## License
 
