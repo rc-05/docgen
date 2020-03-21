@@ -14,10 +14,10 @@ a standard way of documenting the code.
 ## Usage
 
 ```scheme
-(gen-doc foo "Test symbol")
+(gen-doc 'foo "Test symbol")
 (define foo 'test)
 
-(gen-doc bar "Bar function" p1 p2)
+(gen-doc 'bar "Bar function" p1 p2)
 (define bar
   (lambda (p1 p2) p1 p2))
 ```
