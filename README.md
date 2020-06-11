@@ -8,7 +8,7 @@ A ChezScheme library for generating interactive documentation.
 * [Api](#api)  
 * [License](#license)
 
-The library has been conceived because ChezScheme (or Scheme in general) lack
+The library has been conceived because ChezScheme (or Scheme in general) lacks
 a standard way of documenting the code.
 
 ## Usage
