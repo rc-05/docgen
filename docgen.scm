@@ -1,4 +1,4 @@
-(library (docgen)
+(library (docgen (1))
   (export
     list-documented-defs
     describe
